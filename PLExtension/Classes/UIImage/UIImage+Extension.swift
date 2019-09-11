@@ -1,8 +1,8 @@
 //
 //  UIImage+Extension.swift
-//  MCAPI
+//  PLExtension
 //
-//  Created by MC on 2018/11/26.
+//  Created by 彭磊 on 2019/9/10.
 //
 
 import Foundation
@@ -20,10 +20,9 @@ extension UIImage {
 //
 //        let newSize = self.pl_zoomByMaxSide(300)
 //        let newImage = self.pl_resize(newSize: newSize)
-//
+//        
 //        var compress:CGFloat = 0.9
 //        var data = newImage.jpegData(compressionQuality: compress)
-//
 //
 //        while (data?.count)! > length && compress > 0.01 {
 //            compress -= 0.02
@@ -32,7 +31,7 @@ extension UIImage {
 //        let image = UIImage.init(data: data!) ?? UIImage()
 //        return image
 //    }
-
+    
     
     /// 重设图片的size
     ///
@@ -46,7 +45,7 @@ extension UIImage {
         return newImage ?? UIImage()
     }
     
-    /// 通过指定图片最长边，获得等比例的图片size 和jk_resize方法结合使用
+    /// 通过指定图片最长边，获得等比例的图片size 和pl_resize方法结合使用
     ///
     /// - Parameter maxSide: 图片允许的最长宽度（高度）
     /// - Returns: 获得等比例的size
@@ -72,7 +71,7 @@ extension UIImage {
         }
         return CGSize(width: newWidth, height: newHeight)
     }
-
+    
     /**
      * 裁切指定区域（CGRect）获取图片
      */
@@ -82,7 +81,7 @@ extension UIImage {
         let image = UIImage.init(cgImage: imageRef!, scale: self.scale, orientation: self.imageOrientation)
         return image
     }
-
+    
 }
 
 
@@ -92,7 +91,7 @@ extension UIImage {
     
     /**
      * 更改图片颜色 统一渲染为一个纯色。注意图片上透明的使用。
-     */    
+     */
     public func pl_render(by color : UIColor) -> UIImage {
         let drawRect = CGRect.init(x: 0, y: 0, width: size.width, height: size.height)
         UIGraphicsBeginImageContextWithOptions(size, false, scale)
@@ -173,9 +172,9 @@ extension UIImage {
     public static let pl_placeholder_3x2 = Placeholder_3x2()
     /// 5:3 占位图
     public static let pl_placeholder_5x3 = Placeholder_5x3()
-
-
-
+    
+    
+    
     private static func Placeholder_1x1() -> UIImage {
         
         let image = Bundle.pl_loadImage("PlaceHolderImage", from: "GMJKExtensionBundle", in: "GMJKExtension")
@@ -191,20 +190,20 @@ extension UIImage {
         let image = Bundle.pl_loadImage("PlaceHolderImage", from: "GMJKExtensionBundle", in: "GMJKExtension")
         return pl_placeholder(size: (300,100), logoImage: image)
     }
-
+    
     
     private static func Placeholder_3x2() -> UIImage {
         
         let image = Bundle.pl_loadImage("PlaceHolderImage", from: "GMJKExtensionBundle", in: "GMJKExtension")
         return pl_placeholder(size: (300,200), logoImage: image)
     }
-
+    
     
     private static func Placeholder_5x3() -> UIImage {
         let image = Bundle.pl_loadImage("PlaceHolderImage", from: "GMJKExtensionBundle", in: "GMJKExtension")
         return pl_placeholder(size: (500,300), logoImage: image)
     }
-
+    
     
     
     

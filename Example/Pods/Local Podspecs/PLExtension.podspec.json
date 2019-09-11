@@ -1,7 +1,7 @@
 {
   "name": "PLExtension",
   "version": "0.1.0",
-  "summary": "A short description of PLExtension.",
+  "summary": "组件类扩展",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/PengLeiGit/PLExtension",
   "license": {
@@ -18,5 +18,77 @@
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "PLExtension/Classes/**/*"
+  "swift_versions": "5.0",
+  "subspecs": [
+    {
+      "name": "UIView",
+      "source_files": "PLExtension/Classes/UIView+Extension.swift"
+    },
+    {
+      "name": "Bundle",
+      "source_files": "PLExtension/Classes/Bundle+Extension.swift"
+    },
+    {
+      "name": "String",
+      "source_files": "PLExtension/Classes/String+Extension.swift"
+    },
+    {
+      "name": "Int",
+      "source_files": "PLExtension/Classes/Int+Extension.swift"
+    },
+    {
+      "name": "Double",
+      "source_files": "PLExtension/Classes/Double+Extension.swift"
+    },
+    {
+      "name": "NSNumber",
+      "source_files": "PLExtension/Classes/NSNumber+Extension.swift"
+    },
+    {
+      "name": "Array",
+      "source_files": "PLExtension/Classes/Array+Extension.swift"
+    },
+    {
+      "name": "UIColor",
+      "source_files": "PLExtension/Classes/UIColor+Extension.swift"
+    },
+    {
+      "name": "UIDevice",
+      "source_files": "PLExtension/Classes/UIDevice+Extension.swift"
+    },
+    {
+      "name": "UIFont",
+      "source_files": "PLExtension/Classes/UIFont+Extension.swift"
+    },
+    {
+      "name": "UIImage",
+      "source_files": "PLExtension/Classes/UIImage+Extension.swift",
+      "dependencies": {
+        "GMJKExtension/Bundle": [
+
+        ]
+      }
+    },
+    {
+      "name": "UserDefaults",
+      "source_files": "PLExtension/Classes/UserDefaults+Extension.swift"
+    },
+    {
+      "name": "UIBarButtonItem",
+      "source_files": "PLExtension/Classes/UIBarButtonItem+Extension.swift"
+    },
+    {
+      "name": "DispatchQueue",
+      "source_files": "PLExtension/Classes/DispatchQueue+Extension.swift"
+    },
+    {
+      "name": "NotificationCenter",
+      "source_files": "PLExtension/Classes/NotificationCenter+Extension.swift"
+    },
+    {
+      "name": "NSMutableAttributedString",
+      "source_files": "PLExtension/Classes/NSMutableAttributedString+Extension.swift"
+    }
+  ],
+  "swift_version": "5.0"
 }
