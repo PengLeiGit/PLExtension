@@ -1,5 +1,38 @@
 PODS:
-  - PLExtension (0.1.0)
+  - PLExtension (0.1.1):
+    - PLExtension/Array (= 0.1.1)
+    - PLExtension/Bundle (= 0.1.1)
+    - PLExtension/DispatchQueue (= 0.1.1)
+    - PLExtension/Double (= 0.1.1)
+    - PLExtension/Int (= 0.1.1)
+    - PLExtension/NotificationCenter (= 0.1.1)
+    - PLExtension/NSMutableAttributedString (= 0.1.1)
+    - PLExtension/NSNumber (= 0.1.1)
+    - PLExtension/String (= 0.1.1)
+    - PLExtension/UIBarButtonItem (= 0.1.1)
+    - PLExtension/UIColor (= 0.1.1)
+    - PLExtension/UIDevice (= 0.1.1)
+    - PLExtension/UIFont (= 0.1.1)
+    - PLExtension/UIImage (= 0.1.1)
+    - PLExtension/UIView (= 0.1.1)
+    - PLExtension/UserDefaults (= 0.1.1)
+  - PLExtension/Array (0.1.1)
+  - PLExtension/Bundle (0.1.1)
+  - PLExtension/DispatchQueue (0.1.1)
+  - PLExtension/Double (0.1.1)
+  - PLExtension/Int (0.1.1)
+  - PLExtension/NotificationCenter (0.1.1)
+  - PLExtension/NSMutableAttributedString (0.1.1)
+  - PLExtension/NSNumber (0.1.1)
+  - PLExtension/String (0.1.1)
+  - PLExtension/UIBarButtonItem (0.1.1)
+  - PLExtension/UIColor (0.1.1)
+  - PLExtension/UIDevice (0.1.1)
+  - PLExtension/UIFont (0.1.1)
+  - PLExtension/UIImage (0.1.1):
+    - PLExtension/Bundle
+  - PLExtension/UIView (0.1.1)
+  - PLExtension/UserDefaults (0.1.1)
 
 DEPENDENCIES:
   - PLExtension (from `../`)
@@ -9,7 +42,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  PLExtension: 1e81a1bdd7db64a2eb72b71d99c30ede70398220
+  PLExtension: 87fb1d4b174db40e77c86a46b9b20f655bf1239c
 
 PODFILE CHECKSUM: 8f7f373435334b00f6af1cfe946c72f45c013321
 

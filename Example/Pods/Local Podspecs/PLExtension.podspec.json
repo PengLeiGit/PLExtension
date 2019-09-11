@@ -1,6 +1,6 @@
 {
   "name": "PLExtension",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "summary": "组件类扩展",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/PengLeiGit/PLExtension",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/PengLeiGit/PLExtension.git",
-    "tag": "0.1.0"
+    "tag": "0.1.1"
   },
   "platforms": {
     "ios": "8.0"
@@ -64,7 +64,7 @@
       "name": "UIImage",
       "source_files": "PLExtension/Classes/UIImage+Extension.swift",
       "dependencies": {
-        "GMJKExtension/Bundle": [
+        "PLExtension/Bundle": [
 
         ]
       }

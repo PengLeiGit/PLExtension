@@ -177,30 +177,30 @@ extension UIImage {
     
     private static func Placeholder_1x1() -> UIImage {
         
-        let image = Bundle.pl_loadImage("PlaceHolderImage", from: "GMJKExtensionBundle", in: "GMJKExtension")
+        let image = Bundle.pl_loadImage("PlaceHolderImage", from: "PLExtensionBundle", in: "PLExtension")
         return pl_placeholder(size: (100,100), logoImage: image)
     }
     
     private static func Placeholder_2x1() -> UIImage {
-        let image = Bundle.pl_loadImage("PlaceHolderImage", from: "GMJKExtensionBundle", in: "GMJKExtension")
+        let image = Bundle.pl_loadImage("PlaceHolderImage", from: "PLExtensionBundle", in: "PLExtension")
         return pl_placeholder(size: (200,100), logoImage: image)
     }
     
     private static func Placeholder_3x1() -> UIImage {
-        let image = Bundle.pl_loadImage("PlaceHolderImage", from: "GMJKExtensionBundle", in: "GMJKExtension")
+        let image = Bundle.pl_loadImage("PlaceHolderImage", from: "PLExtensionBundle", in: "PLExtension")
         return pl_placeholder(size: (300,100), logoImage: image)
     }
     
     
     private static func Placeholder_3x2() -> UIImage {
         
-        let image = Bundle.pl_loadImage("PlaceHolderImage", from: "GMJKExtensionBundle", in: "GMJKExtension")
+        let image = Bundle.pl_loadImage("PlaceHolderImage", from: "PLExtensionBundle", in: "PLExtension")
         return pl_placeholder(size: (300,200), logoImage: image)
     }
     
     
     private static func Placeholder_5x3() -> UIImage {
-        let image = Bundle.pl_loadImage("PlaceHolderImage", from: "GMJKExtensionBundle", in: "GMJKExtension")
+        let image = Bundle.pl_loadImage("PlaceHolderImage", from: "PLExtensionBundle", in: "PLExtension")
         return pl_placeholder(size: (500,300), logoImage: image)
     }
     

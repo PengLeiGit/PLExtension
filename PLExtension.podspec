@@ -75,7 +75,7 @@ TODO: Add long description of the pod here.
   
   s.subspec 'UIImage' do |ss|
       ss.source_files = "PLExtension/Classes/UIImage+Extension.swift"
-      ss.dependency 'GMJKExtension/Bundle'
+      ss.dependency 'PLExtension/Bundle'
   end
   
   s.subspec 'UserDefaults' do |ss|
