@@ -1,0 +1,16 @@
+PODS:
+  - PLExtension (0.1.0)
+
+DEPENDENCIES:
+  - PLExtension (from `../`)
+
+EXTERNAL SOURCES:
+  PLExtension:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  PLExtension: 1e81a1bdd7db64a2eb72b71d99c30ede70398220
+
+PODFILE CHECKSUM: 8f7f373435334b00f6af1cfe946c72f45c013321
+
+COCOAPODS: 1.7.1

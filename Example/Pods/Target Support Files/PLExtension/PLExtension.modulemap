@@ -1,0 +1,6 @@
+framework module PLExtension {
+  umbrella header "PLExtension-umbrella.h"
+
+  export *
+  module * { export * }
+}
