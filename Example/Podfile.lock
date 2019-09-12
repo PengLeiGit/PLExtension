@@ -1,38 +1,38 @@
 PODS:
-  - PLExtension (0.1.2):
-    - PLExtension/Array (= 0.1.2)
-    - PLExtension/Bundle (= 0.1.2)
-    - PLExtension/DispatchQueue (= 0.1.2)
-    - PLExtension/Double (= 0.1.2)
-    - PLExtension/Int (= 0.1.2)
-    - PLExtension/NotificationCenter (= 0.1.2)
-    - PLExtension/NSMutableAttributedString (= 0.1.2)
-    - PLExtension/NSNumber (= 0.1.2)
-    - PLExtension/String (= 0.1.2)
-    - PLExtension/UIBarButtonItem (= 0.1.2)
-    - PLExtension/UIColor (= 0.1.2)
-    - PLExtension/UIDevice (= 0.1.2)
-    - PLExtension/UIFont (= 0.1.2)
-    - PLExtension/UIImage (= 0.1.2)
-    - PLExtension/UIView (= 0.1.2)
-    - PLExtension/UserDefaults (= 0.1.2)
-  - PLExtension/Array (0.1.2)
-  - PLExtension/Bundle (0.1.2)
-  - PLExtension/DispatchQueue (0.1.2)
-  - PLExtension/Double (0.1.2)
-  - PLExtension/Int (0.1.2)
-  - PLExtension/NotificationCenter (0.1.2)
-  - PLExtension/NSMutableAttributedString (0.1.2)
-  - PLExtension/NSNumber (0.1.2)
-  - PLExtension/String (0.1.2)
-  - PLExtension/UIBarButtonItem (0.1.2)
-  - PLExtension/UIColor (0.1.2)
-  - PLExtension/UIDevice (0.1.2)
-  - PLExtension/UIFont (0.1.2)
-  - PLExtension/UIImage (0.1.2):
+  - PLExtension (0.1.3):
+    - PLExtension/Array (= 0.1.3)
+    - PLExtension/Bundle (= 0.1.3)
+    - PLExtension/DispatchQueue (= 0.1.3)
+    - PLExtension/Double (= 0.1.3)
+    - PLExtension/Int (= 0.1.3)
+    - PLExtension/NotificationCenter (= 0.1.3)
+    - PLExtension/NSMutableAttributedString (= 0.1.3)
+    - PLExtension/NSNumber (= 0.1.3)
+    - PLExtension/String (= 0.1.3)
+    - PLExtension/UIBarButtonItem (= 0.1.3)
+    - PLExtension/UIColor (= 0.1.3)
+    - PLExtension/UIDevice (= 0.1.3)
+    - PLExtension/UIFont (= 0.1.3)
+    - PLExtension/UIImage (= 0.1.3)
+    - PLExtension/UIView (= 0.1.3)
+    - PLExtension/UserDefaults (= 0.1.3)
+  - PLExtension/Array (0.1.3)
+  - PLExtension/Bundle (0.1.3)
+  - PLExtension/DispatchQueue (0.1.3)
+  - PLExtension/Double (0.1.3)
+  - PLExtension/Int (0.1.3)
+  - PLExtension/NotificationCenter (0.1.3)
+  - PLExtension/NSMutableAttributedString (0.1.3)
+  - PLExtension/NSNumber (0.1.3)
+  - PLExtension/String (0.1.3)
+  - PLExtension/UIBarButtonItem (0.1.3)
+  - PLExtension/UIColor (0.1.3)
+  - PLExtension/UIDevice (0.1.3)
+  - PLExtension/UIFont (0.1.3)
+  - PLExtension/UIImage (0.1.3):
     - PLExtension/Bundle
-  - PLExtension/UIView (0.1.2)
-  - PLExtension/UserDefaults (0.1.2)
+  - PLExtension/UIView (0.1.3)
+  - PLExtension/UserDefaults (0.1.3)
 
 DEPENDENCIES:
   - PLExtension (from `../`)
@@ -42,7 +42,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  PLExtension: 26092ceb18c341104d83f84c5352320ed5ab7ba6
+  PLExtension: 33904f94f7cda5878501853a0075ceebce591dae
 
 PODFILE CHECKSUM: 8f7f373435334b00f6af1cfe946c72f45c013321
 
