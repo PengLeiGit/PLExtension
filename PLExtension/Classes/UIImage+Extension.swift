@@ -2,7 +2,7 @@
 //  UIImage+Extension.swift
 //  PLExtension
 //
-//  Created by 彭磊 on 2019/9/10.
+//  Created by 彭磊 on 2019/9/12.
 //
 
 import Foundation
@@ -16,21 +16,21 @@ extension UIImage {
     ///
     /// - Parameter length: 压缩后最大字节大小
     /// - Returns: 压缩后的图片
-//    public func pl_compress(to length: Int) -> UIImage {
-//
-//        let newSize = self.pl_zoomByMaxSide(300)
-//        let newImage = self.pl_resize(newSize: newSize)
-//        
-//        var compress:CGFloat = 0.9
-//        var data = newImage.jpegData(compressionQuality: compress)
-//
-//        while (data?.count)! > length && compress > 0.01 {
-//            compress -= 0.02
-//            data = newImage.jpegData(compressionQuality: compress)
-//        }
-//        let image = UIImage.init(data: data!) ?? UIImage()
-//        return image
-//    }
+    //    public func pl_compress(to length: Int) -> UIImage {
+    //
+    //        let newSize = self.pl_zoomByMaxSide(300)
+    //        let newImage = self.pl_resize(newSize: newSize)
+    //
+    //        var compress:CGFloat = 0.9
+    //        var data = newImage.jpegData(compressionQuality: compress)
+    //
+    //        while (data?.count)! > length && compress > 0.01 {
+    //            compress -= 0.02
+    //            data = newImage.jpegData(compressionQuality: compress)
+    //        }
+    //        let image = UIImage.init(data: data!) ?? UIImage()
+    //        return image
+    //    }
     
     
     /// 重设图片的size
@@ -263,6 +263,3 @@ extension UIImage {
         return resImage ?? UIImage.init()
     }
 }
-
-
-

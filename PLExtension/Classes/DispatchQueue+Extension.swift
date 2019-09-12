@@ -2,11 +2,10 @@
 //  DispatchQueue+Extension.swift
 //  PLExtension
 //
-//  Created by 彭磊 on 2019/9/11.
+//  Created by 彭磊 on 2019/9/12.
 //
 
 import Foundation
-
 extension DispatchTime: ExpressibleByIntegerLiteral {
     /// 延迟
     public init(integerLiteral value: Int) {

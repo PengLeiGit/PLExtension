@@ -1,16 +1,28 @@
 //
-//  Int+Extension.swift
+//  Double+Extension.swift
 //  PLExtension
 //
-//  Created by 彭磊 on 2019/9/10.
+//  Created by 彭磊 on 2019/9/12.
 //
 
 import Foundation
-//MARK: 类型转换
-extension Int {
+extension Double {
     
     /**
-     * Int -> 字符串
+     * double类型转为（0.01）格式字符串。
+     * 保留两位小数
+     */
+    public var unitValue: String {
+        return String.init(format: "%.2f", self)
+    }
+}
+
+
+//MARK: 类型转换
+extension Double {
+    
+    /**
+     * Double -> 字符串
      */
     public var stringValue: String {
         get {
@@ -20,7 +32,7 @@ extension Int {
     
     
     /**
-     * Int -> Float
+     * Double -> Float
      */
     public var folatValue: Float {
         get {
@@ -29,17 +41,7 @@ extension Int {
     }
     
     /**
-     * Int -> Double
-     */
-    public var doubleValue: Double {
-        get {
-            return Double(self)
-        }
-    }
-    
-    
-    /**
-     * Int -> NSNumber
+     * Double -> NSNumber
      */
     public var numberValue: NSNumber {
         get {

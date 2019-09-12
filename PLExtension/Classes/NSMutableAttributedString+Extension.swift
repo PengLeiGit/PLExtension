@@ -2,7 +2,7 @@
 //  NSMutableAttributedString+Extension.swift
 //  PLExtension
 //
-//  Created by 彭磊 on 2019/9/11.
+//  Created by 彭磊 on 2019/9/12.
 //
 
 import Foundation
@@ -102,7 +102,7 @@ extension NSMutableAttributedString {
     
     //=========================删除线==========================//
     /// 设置删除线 NSUnderlineStyle: none不设置，single单细线删除，thick粗单线， Double双细线
-    public func pl_addStrikethrough(style: NSUnderlineStyle = .styleSingle, color: UIColor? = nil, range: NSRange) {
+    public func pl_addStrikethrough(style: NSUnderlineStyle = .single, color: UIColor? = nil, range: NSRange) {
         
         if self.length < range.location + range.length {
             return
@@ -120,13 +120,13 @@ extension NSMutableAttributedString {
     
     //=========================下划线==========================//
     /// 设置下划线 NSUnderlineStyle: none不设置，single单细线删除，thick粗单线， Double双细线
-    public func pl_addUnderLine(style: NSUnderlineStyle = .styleSingle, color: UIColor? = nil, range: NSRange) {
+    public func pl_addUnderLine(style: NSUnderlineStyle = .single, color: UIColor? = nil, range: NSRange) {
         
         if self.length < range.location + range.length {
             return
         }
         
-        let attrs = [NSAttributedString.Key.underlineStyle: NSUnderlineStyle.styleSingle.rawValue]
+        let attrs = [NSAttributedString.Key.underlineStyle: NSUnderlineStyle.single.rawValue]
         self.addAttributes(attrs, range: range)
         
         if let tempColor = color {

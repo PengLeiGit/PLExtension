@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "B6315387AE4DFED8A149D78CBFA7E2EA"
-               BuildableName = "PLExtension"
+               BuildableName = "PLExtension.framework"
                BlueprintName = "PLExtension"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
