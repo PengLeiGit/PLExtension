@@ -56,11 +56,7 @@ TODO: Add long description of the pod here.
   s.subspec 'NSNumber' do |ss|
       ss.source_files = "PLExtension/Classes/NSNumber+Extension.swift"
   end
-  
-  s.subspec 'Array' do |ss|
-      ss.source_files = "PLExtension/Classes/Array+Extension.swift"
-  end
-  
+
   s.subspec 'UIColor' do |ss|
       ss.source_files = "PLExtension/Classes/UIColor+Extension.swift"
   end
@@ -92,9 +88,6 @@ TODO: Add long description of the pod here.
       ss.source_files = "PLExtension/Classes/DispatchQueue+Extension.swift"
   end
   
-  s.subspec 'NotificationCenter' do |ss|
-      ss.source_files = "PLExtension/Classes/NotificationCenter+Extension.swift"
-  end
   
   s.subspec 'NSMutableAttributedString' do |ss|
       ss.source_files = "PLExtension/Classes/NSMutableAttributedString+Extension.swift"
